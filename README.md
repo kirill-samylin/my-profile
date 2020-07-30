@@ -176,3 +176,12 @@
 ##### [Ссылка на макет в Figma](https://www.figma.com/file/yhqJTln2yAEuka54oIrOzY/restaurant)
 ##### [Ссылка на готовый проект](https://dmitry-lab.github.io/restaurant-main-page/)
 ##### [Ссылка на код проекта](https://github.com/Dmitry-lab/restaurant-main-page)
+
+## Модуль для продажи предметов из игры CS:GO на market.csgo.com
+
+#### Создание модуля очереди "Queue", для избежания получения бана за превышение лимита запросов в секунду.
+#### Создание модуля "Request" для отправки запросов.
+#### Создание модуля "MarketCsgo" для продажи скинов.
+#### Модуль "MarketCsgo" принимает "api key" и "%". После запуска модуля, каждый час снижается стоимость выставленных предметов на продажу, на указанный "%"
+
+##### [Ссылка на код](https://github.com/kirill-samylin/market-csgo)
