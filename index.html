@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты GitHub Самылина Кирилла.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="page">
+        <header class="header">
+            <div class="header__logo">
+                <img class="header__photo" src="./images/phpto.jpg" alt="Логотип">
+            </div>
+            <h1 class="header__title">Проекты GitHub Самылина Кирилла.</h1>
+        </header>
+        <main class="main">
+            <section class="frontend-project">
+                <h2 class="main__title">Frontend проекты:</h2>
+                <p class="main__paragraph">Тут представлены мои фронтенд проекты, выложенные на <span class="stack">GitHub</span></p>
+                <ul class="projects">
+                    <li class="project">
+                        <h3 class="project__title">Продуктовая корзина</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Внешний вид сайта соответствует макету: Figma.</li>
+                                <li class="project__description">Файловая структура организована по БЭМу.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса Basket.</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Принимает массив продуктов.</li>
+                                <li class="project__description">Метод колбэк для удаления продуктов из корзины.</li>
+                                <li class="project__description">Метод колбэк для изменения количества продукта в корзине.</li>
+                                <li class="project__description">Метод колбэк для передачи массива продуктов в корзине.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса Product.</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Принимает в конструктор объект продукта, и селектор элемента.</li>
+                                <li class="project__description">По клику колбэком переносит продукт в корзину.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">JS. Создание класса Menu.</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Принимает массив пунктов меню.</li>
+                                <li class="project__description">Создает пункты меню.</li>
+                                <li class="project__description">По клику колбэком передает id меню для сортировки продуктов на странице.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack">HTML, CSS, JS, БЭМ, GIT, ОПП, Webpack.</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/product-basket"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/ZKOe51aALgi5BgPvDBJIUE/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD-%D1%87%D0%B0%D1%8F?node-id=0%3A1"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/product-basket/"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open">+</button>
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Задача "Платные дороги"</h3>
+                        <p class="project__paragraph">Условие:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Сервис третьих лиц подготовил сводную матрицу движения по платным дорогам. В прямоугольной таблице N x M, в каждой клетке которой записано некоторое число, в начале позиции водителя соответствует левая верхняя клетка.</li>
+                                <li class="project__description">По спецификации матрицы движение разрешается только в соседнюю клетку либо вправо, либо вниз (влево и вверх перемещаться запрещено). При проходе через клетку с водителя берут столько у.е., какое число записано в этой клетке. Деньги берут также за первую и последнюю клетки его пути.</li>
+                                <li class="project__description">Требуется найти минимальную сумму у.е., заплатив которую, водитель может попасть в правый нижний угол.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Входные данные:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">На вход подается матрица размерностью N x M (1<=N<=20, 1<=M<=20). В каждой ячейке матрицы – размеры штрафов в у.е. за прохождение через соответствующие клетки (числа от 0 до 100).</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Выходные данные:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Запиши минимальную сумму, потратив которую можно попасть в правый нижний угол.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack">HTML, CSS, JS, GIT</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/task-way"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/task-way/"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open">+</button>
+                    </li>
+                </ul>    
+            </section>
+            <section class="yandex-praktikum">
+                <h2 class="main__title">Проектные работы Яндекс.Практикум:</h2>
+                <p class="main__paragraph">На курсах Яндекс.Практикума научился реализовывать проекты с помощью <span class="stack">HTML, CSS, JS, БЭМ, GIT, ОПП, Api, React JS.</span>. Научился работать с <span class="stack">Git</span> и <span class="stack">Webpack'ом</span>. </p>
+                <ul class="projects">
+                    <li class="project">
+                        <h3 class="project__title">Проектная работа №3</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Верстка макета Figma "Путешествие по России".</li>
+                                <li class="project__description">Создание файловой структуры CSS по методологии БЭМ.</li>
+                                <li class="project__description">Использование технологии Grid Layout.</li>
+                                <li class="project__description">Разработка интерфейса для разных устройств.</li>
+                                <li class="project__description">Использование медиазапросов.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack"> HTML, CSS, БЭМ</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/russian-travel"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-(mobile)-(Copy)?node-id=0%3A1"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/russian-travel/"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open">+</button>
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Проектная работа №4</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Внешний вид сайта соответствует макету: Figma.</li>
+                                <li class="project__description">Файловая структура организована по БЭМу.</li>
+                                <li class="project__description">Вёрстка адаптивная: ширина зоны с содержимым должна меняться вместе с шириной окна браузера. При этом не должна появляться горизонтальная полоса прокрутки. Минимальная ширина: 300px (одна карточка в ряд).</li>
+                                <li class="project__description">Максимальная: 1280px (три карточки в ряд).</li>
+                                <li class="project__description">Открытие и закрытие попапа.</li>
+                                <li class="project__description">При открытии формы поля «Имя» и «О себе» должны быть заполнены теми значениями, которые отображаются на странице.</li>
+                                <li class="project__description">Редактирование имени и информации о себе.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack"> HTML, CSS, JS, БЭМ, GIT</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/yandex-project-4"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/yandex-project-4/index.html"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open">+</button>
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Проектная работа №5</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Форма добавления карточки.</li>
+                                <li class="project__description">Лайк карточки.</li>
+                                <li class="project__description">Удаление карточки.</li>
+                                <li class="project__description">Открытие попапа с картинкой.</li>
+                                <li class="project__description">Плавное открытие и закрытие попапов.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack"> HTML, CSS, JS, БЭМ, GIT</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/yandex-project-5"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/nlYpT4VhFiwimn2YlncrcF/JavaScript.-Sprint-5"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/yandex-project-5/"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open hidden">+</button>
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Проектная работа №6</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Валидация формы «Редактировать профиль».</li>
+                                <li class="project__description">Валидация формы «Новое место».</li>
+                                <li class="project__description">Закрытие попапа кликом на оверлей.</li>
+                                <li class="project__description">Закрытие попапа нажатием на Esc.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack"> HTML, CSS, JS, БЭМ, GIT</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/yandex-project-6"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/XNaGNEZD5NEjeyJzAT4gMb/JavaScript.-Sprint-6"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/yandex-project-6/index.html"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open hidden">+</button>
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Проектная работа №7</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса Card:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Принимает в конструктор её данные и селектор её template-элемента.</li>
+                                <li class="project__description">Содержит приватные методы, которые работают с разметкой, устанавливают слушателей событий.</li>
+                                <li class="project__description">Содержит приватные методы для каждого обработчика.</li>
+                                <li class="project__description">Содержит один публичный метод, который возвращает полностью работоспособный и наполненный данными элемент карточки.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса FormValidator:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Принимает в конструктор объект настроек с селекторами и классами формы.</li>
+                                <li class="project__description">Принимает вторым параметром элемент той формы, которая валидируется.</li>
+                                <li class="project__description">Имеет приватные методы, которые обрабатывают форму: проверяют валидность поля, изменяют состояние кнопки сабмита, устанавливают все обработчики.</li>
+                                <li class="project__description">Имеет один публичный метод enableValidation, который включает валидацию формы.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack">HTML, CSS, JS, БЭМ, GIT, OОП</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/yandex-project-7"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/nlYpT4VhFiwimn2YlncrcF/JavaScript.-Sprint-6"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/yandex-project-7/index.html"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open">+</button>
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Проектная работа №8</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса Section:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Первым параметром конструктора принимает объект с двумя свойствами: items и renderer. Свойство items — это массив данных, которые нужно добавить на страницу при инициализации класса. Свойство renderer — это функция, которая отвечает за создание и отрисовку данных на странице.</li>
+                                <li class="project__description">Второй параметр конструктора — селектор контейнера, в который нужно добавлять созданные элементы.</li>
+                                <li class="project__description">Содержит публичный метод, который отвечает за отрисовку всех элементов. Отрисовка каждого отдельного элемента должна осуществляться функцией renderer.</li>
+                                <li class="project__description">Содержит публичный метод addItem, который принимает DOM-элемент и добавляет его в контейнер.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса Popup:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Принимает в конструктор единственный параметр — селектор попапа.</li>
+                                <li class="project__description">Содержит публичные методы open и close, которые отвечают за открытие и закрытие попапа.</li>
+                                <li class="project__description">Содержит приватный метод _handleEscClose, который содержит логику закрытия попапа клавишей Esc.</li>
+                                <li class="project__description">Содержит публичный метод setEventListeners, который добавляет слушатель клика иконке закрытия попапа.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса UserInfo::</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Кроме селектора попапа принимает в конструктор колбэк сабмита формы.</li>
+                                <li class="project__description">Содержит приватный метод _getInputValues, который собирает данные всех полей формы.</li>
+                                <li class="project__description">Перезаписывает родительский метод setEventListeners. Метод setEventListeners класса PopupWithForm должен не только добавлять обработчик клика иконке закрытия, но и добавлять обработчик сабмита формы.</li>
+                                <li class="project__description">Перезаписывает родительский метод close, так как при закрытии попапа форма должна ещё и сбрасываться.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса PopupWithForm, который наследует от Popup:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Принимает в конструктор объект с селекторами двух элементов: элемента имени пользователя и элемента информации о себе.</li>
+                                <li class="project__description">Содержит публичный метод getUserInfo, который возвращает объект с данными пользователя. Этот метод пригодится когда данные пользователя нужно будет подставить в форму при открытии.</li>
+                                <li class="project__description">Содержит публичный метод setUserInfo, который принимает новые данные пользователя и добавляет их на страницу.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Преобразование класса Card:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Свяжите класс Card c попапом. Сделайте так, чтобы Card принимал в конструктор функцию handleCard+. Эта функция должна открывать попап с картинкой при клике на карточку.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Настройка сборки Вебпака:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Установка webpack, webpack-cli и webpack-dev-server.</li>
+                                <li class="project__description">Настройка двух сборок: build и dev. Создание соответствующих скриптов в package.json. Скрипт build должен пересоздавать папку dist с собранным проектом. Скрипт dev запускать проект на локальном сервере.</li>
+                                <li class="project__description">Настройка минификации и транспиляцию JS бабелем. Из index.html уберать теги script с подключением скриптов. Вебпак должен собирать весь JavaScript в один файл и автоматически добавлять в HTML тег script со ссылкой на него.</li>
+                                <li class="project__description">Настройка обработки CSS: в HTML больше не должно быть тега link со ссылкой на CSS-файл. За обработку и подключение CSS должен отвечать Webpack.</li>
+                                <li class="project__description">Настройка минификации CSS и автоматическое добавление вендорных префиксов.</li>
+                                <li class="project__description">Настройка обработки изображений и шрифтов.</li>
+                                <li class="project__description">Настройка обработки HTML: если в HTML есть ссылки на локальные картинки, при сборке всё должно работать.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack">HTML, CSS, JS, БЭМ, GIT, ОПП, Webpack</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/yandex-project-8"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/nlYpT4VhFiwimn2YlncrcF/JavaScript.-Sprint-6"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/yandex-project-8/"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open">+</button>  
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Проектная работа №9</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса Card:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Принимает в конструктор её данные и селектор её template-элемента.</li>
+                                <li class="project__description">Содержит приватные методы, которые работают с разметкой, устанавливают слушателей событий.</li>
+                                <li class="project__description">Содержит приватные методы для каждого обработчика.</li>
+                                <li class="project__description">Содержит один публичный метод, который возвращает полностью работоспособный и наполненный данными элемент карточки.</li>
+                            </ul>
+                            <p class="project__paragraph project__paragraph_bolt">Создание класса FormValidator:</p>
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Принимает в конструктор объект настроек с селекторами и классами формы.</li>
+                                <li class="project__description">Принимает вторым параметром элемент той формы, которая валидируется.</li>
+                                <li class="project__description">Имеет приватные методы, которые обрабатывают форму: проверяют валидность поля, изменяют состояние кнопки сабмита, устанавливают все обработчики.</li>
+                                <li class="project__description">Имеет один публичный метод enableValidation, который включает валидацию формы.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack">HTML, CSS, JS, БЭМ, GIT, ОПП, Webpack.</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/yandex-project-9"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/XNaGNEZD5NEjeyJzAT4gMb/JavaScript.-Sprint-6"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/yandex-project-9/"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open">+</button>     
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Проектная работа №10</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Создание нового проекта на Create React App.</li>
+                                <li class="project__description">Портировал разметку.</li>
+                                <li class="project__description">Настройка работы попапов.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack">HTML, CSS, JS, БЭМ, GIT, ОПП, Api, React JS.</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/yandex-project-10"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/XNaGNEZD5NEjeyJzAT4gMb/JavaScript.-Sprint-6"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/yandex-project-10/"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open hidden">+</button>
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Проектная работа №11</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Использование React.useState, React.useEffect , React.useCallback</li>
+                                <li class="project__description">Создание и подключение контекста</li>
+                                <li class="project__description">Использование подписки на контекст</li>
+                                <li class="project__description">Использование рефы</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack">HTML, CSS, JS, БЭМ, GIT, ОПП, Api, React JS.</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/kirill-samylin/mesto-react"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/XNaGNEZD5NEjeyJzAT4gMb/JavaScript.-Sprint-6"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://kirill-samylin.github.io/mesto-react/"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open hidden">+</button>
+                    </li>
+                    <li class="project">
+                        <h3 class="project__title">Групповой проект</h3>
+                        <p class="project__paragraph">Описание и функциональность проекта:</p>
+                        <div style="height: 100px;" class="project__available-part">
+                            <ul class="project__descriptions"> 
+                                <li class="project__description">Верстка макета Figma "RESTAURANT".</li>
+                                <li class="project__description">Создание файловой структуры CSS по методологии БЭМ.</li>
+                                <li class="project__description">Использование технологии Grid Layout.</li>
+                                <li class="project__description">Разработка интерфейса для разных устройств.</li>
+                                <li class="project__description">Использование медиазапросов.</li>
+                                <li class="project__description">Работа в группе.</li>
+                            </ul>
+                        </div>
+                        <p class="project__paragraph">Стек: <span class="stack">HTML, CSS, БЭМ, GIT</span></p>
+                        <ul class="project__links">
+                            <li class="project__link"><a class="project__url" target="_black" href="https://github.com/Dmitry-lab/restaurant-main-page"><span class="github"></span>GitHub</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://www.figma.com/file/yhqJTln2yAEuka54oIrOzY/restaurant"><span class="figma"></span>Figma</a></li>
+                            <li class="project__link"><a class="project__url" target="_black" href="https://dmitry-lab.github.io/restaurant-main-page/"><span class="site"></span>Site</a></li>
+                        </ul>
+                        <button class="project__descriptions-open">+</button>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
